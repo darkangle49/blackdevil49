@@ -6,7 +6,7 @@ img{
   margin-right: inherit;
   border-radius: 240px;
 }
-@@media only screen and (min-width:320px) and (max-width:420px)
+@@media only screen and (min-width:720px) and (max-width:1080px)
 
 }
 .parent{
