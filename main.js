@@ -11,6 +11,13 @@ function getfile(file,callback){
 }
 getfile("data.json",function(text){
   var data =JSON.parse(text);
-  console.log(data)
+  console.log(data);
+  career(data.career);
 }
-)
+)var child2=document.queryselector(".childTwo")
+function career(career_info){
+  var ch=document.createElement("p");
+  ch.textContent=careerInfo.info;
+  child2.appendChild(ch);
+  
+}
